@@ -169,7 +169,7 @@ if __name__ == '__main__':
    # d = add_demo(6,2)
    # print(c)
    # print(d)
-   # print(type(d))
+    print(type(d))
 def float_demo():
     afloat = 8.85
     print(type(float))

@@ -42,13 +42,13 @@ def  for_w():
             print(j, "x", i, "=", i * j, "\t", end="")
             if i == j:
                 print("")
-                break
-def jiujiu():
-    for i in range(1,10):
-        x = i+1
-        for j in range(1,x):
-            print('%s * %s = %s'%(j,i,j*i),end='   ')
-        print('')
+# 计算1到50之间的奇数和?
+def sum_demo():
+    sum = 0
+    for i in range(1, 51):
+        if i % 2 == 1:
+            sum = sum +i
+    print(sum)
 
 def for_wei():
     wei = 0
@@ -71,4 +71,4 @@ if __name__ == '__main__':
     #  sum()
     # for_wei()
     # for_w()
-    jiujiu()
+    sum_demo()
